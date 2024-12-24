@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 // MongoDB connection (replace with your own MongoDB URI)
 //mongoose.connect('mongodb://localhost:27017/loginApp', {
-mongoose.connect('mongodb+srv://Flutter:Testing@1234@cluster0.pnbsm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://Flutter:Testing%401234@cluster0.pnbsm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   serverSelectionTimeoutMS: 5000,  // Timeout after 5 seconds
 })
 .then(() => {
