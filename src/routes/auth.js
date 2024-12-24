@@ -79,7 +79,11 @@ const symptoms = ['fever', 'cold', 'cough', 'headache', 'vomiting', 'body pain']
 router.get('/symptoms', (req, res) => {
 try {
     // Return the list of symptoms
-    return res.status(200).json(symptoms);
+    return res.status(200).json({
+        status: 'success',
+        data: symptoms,
+        message: 'Symptoms list fetched successfully'
+    });
   } catch (err) {
     // If an error occurs, return a server error
     console.error(err);
