@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import authRoutes from './routes/auth.js'
 
 const app = express();
-const port = node-js-07n6.onrender.com;
+const port = "node-js-07n6.onrender.com";
 
 // Enable CORS for all origins
 app.use(cors());
