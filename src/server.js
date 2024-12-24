@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import authRoutes from './routes/auth.js'
 
 const app = express();
-const port = 3001;
+const port = node-js-07n6.onrender.com;
 
 // Enable CORS for all origins
 app.use(cors());
@@ -29,5 +29,5 @@ app.use('/api', authRoutes);
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at http://${port}`);
 });
