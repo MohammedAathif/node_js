@@ -6,7 +6,7 @@ import authRoutes from './routes/auth.js'
 
 const app = express();
 //const port = 3001;
-const port = "node-js-07n6.onrender.com";
+const port = process.env.PORT;
 
 // Enable CORS for all origins
 app.use(cors());
