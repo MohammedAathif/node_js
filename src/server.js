@@ -14,17 +14,17 @@ app.use(cors());
 // Middleware to parse JSON request bodies
 app.use(bodyParser.json());
 
-// MongoDB connection (replace with your own MongoDB URI)
-//mongoose.connect('mongodb://localhost:27017/loginApp', {
-mongoose.connect('mongodb+srv://Flutter:Testing%401234@cluster0.pnbsm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
-  serverSelectionTimeoutMS: 5000,  // Timeout after 5 seconds
-})
-.then(() => {
-  console.log('Connected to MongoDB');
-})
-.catch((err) => {
-  console.error('Error connecting to MongoDB:', err);
-});
+//// MongoDB connection (replace with your own MongoDB URI)
+////mongoose.connect('mongodb://localhost:27017/loginApp', {
+//mongoose.connect('mongodb+srv://Flutter:Testing%401234@cluster0.pnbsm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+//  serverSelectionTimeoutMS: 5000,  // Timeout after 5 seconds
+//})
+//.then(() => {
+//  console.log('Connected to MongoDB');
+//})
+//.catch((err) => {
+//  console.error('Error connecting to MongoDB:', err);
+//});
 
 // Use the routes from auth.js
 app.use('/api', authRoutes);
