@@ -14,7 +14,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection (replace with your own MongoDB URI)
-mongoose.connect('mongodb+srv://Flutter:<db_password>@cluster0.pnbsm.mongodb.net/loginApp', {
+mongoose.connect('mongodb+srv://Flutter:Testing@1234@cluster0.pnbsm.mongodb.net/loginApp', {
   serverSelectionTimeoutMS: 5000,  // Timeout after 5 seconds
 })
 .then(() => {
