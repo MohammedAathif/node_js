@@ -1159,3 +1159,5 @@ router.get('/surahNames', (req, res) => {
  }
 
 });
+
+export default router;

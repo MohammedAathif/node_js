@@ -3,10 +3,12 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import authRoutes from './routes/auth.js'
+import namesOfAllahRoutes from './routes/namesOfAllah.js'
+import surahNamesRoutes from './routes/surahNames.js'
 
 const app = express();
-//const port = 3001;
-const port = process.env.PORT;
+const port = 3001;
+//const port = process.env.PORT;
 
 // Enable CORS for all origins
 app.use(cors());
@@ -28,9 +30,11 @@ mongoose.connect('mongodb+srv://Flutter:Testing%401234@cluster0.pnbsm.mongodb.ne
 
 // Use the routes from auth.js
 app.use('/api', authRoutes);
+app.use('/api', namesOfAllahRoutes);
+app.use('/api', surahNamesRoutes);
 
 // Start the server
 app.listen(port, () => {
-//  console.log(`Server running at http://localhost:${port}`);
-  console.log(`Server running at http://${port}`);
+  console.log(`Server running at http://localhost:${port}`);
+//  console.log(`Server running at http://${port}`);
 });
