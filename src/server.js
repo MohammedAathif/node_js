@@ -7,8 +7,8 @@ import namesOfAllahRoutes from './routes/namesOfAllah.js'
 import surahNamesRoutes from './routes/surahNames.js'
 
 const app = express();
-const port = 3001;
-//const port = process.env.PORT;
+//const port = 3001;
+const port = process.env.PORT;
 
 // Enable CORS for all origins
 app.use(cors());
@@ -35,6 +35,6 @@ app.use('/api', surahNamesRoutes);
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-//  console.log(`Server running at http://${port}`);
+//  console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at http://${port}`);
 });
