@@ -102,4 +102,48 @@ router.get('/symptoms', (req, res) => {
 });
 
 
+// API route that fetches and merges data from two external APIs
+router.get('/getAyah', async (req, res) => {
+  try {
+    const { sura, aya } = req.query;
+
+    if (!sura || !aya) {
+      return res.status(400).json({ message: 'Sura and Aya are required' });
+    }
+
+    // Call the first API (Tamil translation)
+    const tamilApiResponse = await axios.get(`https://quranenc.com/api/v1/translation/aya/tamil_omar/${sura}/${aya}`);
+
+    // Call the second API (English translation)
+    const englishApiResponse = await axios.get(`https://quranenc.com/api/v1/translation/aya/english_hilali_khan/${sura}/${aya}`);
+
+    // Merge both responses
+    const mergedData = {
+      result: {
+        id: tamilApiResponse.data.result.id,
+        sura: tamilApiResponse.data.result.sura,
+        aya: tamilApiResponse.data.result.aya,
+        arabic_text: tamilApiResponse.data.result.arabic_text,
+        tamilTranslation: tamilApiResponse.data.result.translation, // Tamil translation
+        englishTranslation: englishApiResponse.data.result.translation, // English translation
+        footnotes: tamilApiResponse.data.result.footnotes // Assuming footnotes are same for both
+      }
+    };
+
+    // Send the merged response to the frontend
+    res.status(200).json({
+      status: 'Success',
+      data: mergedData,
+      message: "ayah fetched successfully"
+    });
+  } catch (error) {
+    // Handle errors if API calls fail
+    console.error('Error fetching data from APIs:', error);
+    res.status(500).json({ error: 'An error occurred while fetching data' });
+  }
+});
+
+
+
+
 export default router;  // Export the router
