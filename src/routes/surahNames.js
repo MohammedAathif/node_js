@@ -109,7 +109,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்து ஹூது",
                          "urduName": "ஸூரத்து ஹூது",
                          "englishNameTranslation": "Hud",
-                         "tamilNameTranslation": "Hud",
+                         "tamilNameTranslation": "ஹூது",
                          "urduNameTranslation": "Hud",
                          "revelationType": "Meccan","totalAyah" : 123
                        },
@@ -119,7 +119,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்து யூஸுஃப்",
                          "urduName": "ஸூரத்து யூஸுஃப்",
                          "englishNameTranslation": "Joseph",
-                         "tamilNameTranslation": "Joseph",
+                         "tamilNameTranslation": "யூஸுஃப்",
                          "urduNameTranslation": "Joseph",
                          "revelationType": "Meccan","totalAyah" : 111
                        },
@@ -139,7 +139,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்து இப்ராஹீம்",
                          "urduName": "ஸூரத்து இப்ராஹீம்",
                          "englishNameTranslation": "Abraham",
-                         "tamilNameTranslation": "Abraham",
+                         "tamilNameTranslation": "இப்ராஹீம்",
                          "urduNameTranslation": "Abraham",
                          "revelationType": "Meccan","totalAyah" : 52
                        },
@@ -189,7 +189,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்து மர்யம்",
                          "urduName": "ஸூரத்து மர்யம்",
                          "englishNameTranslation": "Mary",
-                         "tamilNameTranslation": "Mary",
+                         "tamilNameTranslation": "மர்யம்",
                          "urduNameTranslation": "Mary",
                          "revelationType": "Meccan","totalAyah" : 98
                        },
@@ -199,7 +199,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்து தாஹா",
                          "urduName": "ஸூரத்து தாஹா",
                          "englishNameTranslation": "Taa-Haa",
-                         "tamilNameTranslation": "Taa-Haa",
+                         "tamilNameTranslation": "தாஹா",
                          "urduNameTranslation": "Taa-Haa",
                          "revelationType": "Meccan","totalAyah" : 135
                        },
@@ -219,7 +219,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்துல் ஹஜ்",
                          "urduName": "ஸூரத்துல் ஹஜ்",
                          "englishNameTranslation": "The Pilgrimage",
-                         "tamilNameTranslation": "The Pilgrimage",
+                         "tamilNameTranslation": "ஹஜ் யாத்திரை",
                          "urduNameTranslation": "The Pilgrimage",
                          "revelationType": "Medinan","totalAyah" : 78
                        },
@@ -309,7 +309,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்து லுக்மான்",
                          "urduName": "ஸூரத்து லுக்மான்",
                          "englishNameTranslation": "Luqman",
-                         "tamilNameTranslation": "Luqman",
+                         "tamilNameTranslation": "லுக்மான்",
                          "urduNameTranslation": "Luqman",
                          "revelationType": "Meccan","totalAyah" : 34
                        },
@@ -339,7 +339,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்துஸ் ஸபா",
                          "urduName": "ஸூரத்துஸ் ஸபா",
                          "englishNameTranslation": "Sheba",
-                         "tamilNameTranslation": "Sheba",
+                         "tamilNameTranslation": "ஸபா",
                          "urduNameTranslation": "Sheba",
                          "revelationType": "Meccan","totalAyah" : 54
                        },
@@ -359,7 +359,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்து யாஸீன்",
                          "urduName": "ஸூரத்து யாஸீன்",
                          "englishNameTranslation": "Yaseen",
-                         "tamilNameTranslation": "Yaseen",
+                         "tamilNameTranslation": "யாஸீன்",
                          "urduNameTranslation": "Yaseen",
                          "revelationType": "Meccan","totalAyah" : 83
                        },
@@ -379,7 +379,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்து ஸாத்",
                          "urduName": "ஸூரத்து ஸாத்",
                          "englishNameTranslation": "The letter Saad",
-                         "tamilNameTranslation": "The letter Saad",
+                         "tamilNameTranslation": "ஸாத் என்ற எழுத்து",
                          "urduNameTranslation": "The letter Saad",
                          "revelationType": "Meccan","totalAyah" : 88
                        },
@@ -396,20 +396,20 @@ const surahNames = [
                        {
                          "name": "غَافِرٍ",
                          "englishName": "Ghafir",
-                         "tamilName": "Ghafir",
+                         "tamilName": "காஃபிர்",
                          "urduName": "Ghafir",
                          "englishNameTranslation": "The Forgiver",
-                         "tamilNameTranslation": "The Forgiver",
+                         "tamilNameTranslation": "மன்னிப்பவர்",
                          "urduNameTranslation": "The Forgiver",
                          "revelationType": "Meccan","totalAyah" : 85
                        },
                        {
                          "name": "فُصِّلَتۡ",
                          "englishName": "Fussilat",
-                         "tamilName": "Fussilat",
+                         "tamilName": "ஃபுஸ்சில்லட்",
                          "urduName": "Fussilat",
                          "englishNameTranslation": "Explained in detail",
-                         "tamilNameTranslation": "Explained in detail",
+                         "tamilNameTranslation": "விரிவாக விளக்கினார்",
                          "urduNameTranslation": "Explained in detail",
                          "revelationType": "Meccan","totalAyah" : 54
                        },
@@ -436,8 +436,8 @@ const surahNames = [
                        {
                          "name": "الدُّخَانِ",
                          "englishName": "Ad-Dukhaan",
-                         "tamilName": "ஸூரத்துத் துகான்",
-                         "urduName": "ஸூரத்துத் துகான்",
+                         "tamilName": "ஸூரத்துல் துகான்",
+                         "urduName": "ஸூரத்துல் துகான்",
                          "englishNameTranslation": "The Smoke",
                          "tamilNameTranslation": "புகை",
                          "urduNameTranslation": "புகை",
@@ -466,10 +466,10 @@ const surahNames = [
                        {
                          "name": "مُحَمَّدٍ",
                          "englishName": "Muhammad",
-                         "tamilName": "ஸூரத்து முஹம்மது",
-                         "urduName": "ஸூரத்து முஹம்மது",
+                         "tamilName": "ஸூரத்துல் முஹம்மது",
+                         "urduName": "ஸூரத்துல் முஹம்மது",
                          "englishNameTranslation": "Muhammad",
-                         "tamilNameTranslation": "ஸல்",
+                         "tamilNameTranslation": "முஹம்மது ஸல்",
                          "urduNameTranslation": "ஸல்",
                          "revelationType": "Medinan","totalAyah" : 38
                        },
@@ -496,18 +496,18 @@ const surahNames = [
                        {
                          "name": "قٓ",
                          "englishName": "Qaaf",
-                         "tamilName": "ஸூரத்து ஃகாஃப்",
-                         "urduName": "ஸூரத்து ஃகாஃப்",
+                         "tamilName": "ஸூரத்துல் ஃகாஃப்",
+                         "urduName": "ஸூரத்துல் ஃகாஃப்",
                          "englishNameTranslation": "The letter Qaaf",
-                         "tamilNameTranslation": "The letter Qaaf",
+                         "tamilNameTranslation": "காஃப் என்ற எழுத்து",
                          "urduNameTranslation": "The letter Qaaf",
                          "revelationType": "Meccan","totalAyah" : 45
                        },
                        {
                          "name": "الذَّارِيَاتِ",
                          "englishName": "Adh-Dhaariyat",
-                         "tamilName": "ஸூரத்துத் தாரியாத்",
-                         "urduName": "ஸூரத்துத் தாரியாத்",
+                         "tamilName": "ஸூரத்துல் தாரியாத்",
+                         "urduName": "ஸூரத்துல் தாரியாத்",
                          "englishNameTranslation": "The Winnowing Winds",
                          "tamilNameTranslation": "புழுதியைக் கிளப்பும் காற்றுகள்",
                          "urduNameTranslation": "புழுதியைக் கிளப்பும் காற்றுகள்",
@@ -516,8 +516,8 @@ const surahNames = [
                        {
                          "name": "الطُّورِ",
                          "englishName": "At-Tur",
-                         "tamilName": "ஸூரத்துத் தூர்",
-                         "urduName": "ஸூரத்துத் தூர்",
+                         "tamilName": "ஸூரத்துல் தூர்",
+                         "urduName": "ஸூரத்துல் தூர்",
                          "englishNameTranslation": "The Mount",
                          "tamilNameTranslation": "மலை",
                          "urduNameTranslation": "மலை",
@@ -526,8 +526,8 @@ const surahNames = [
                        {
                          "name": "النَّجۡمِ",
                          "englishName": "An-Najm",
-                         "tamilName": "ஸூரத்துந்நஜ்ம்",
-                         "urduName": "ஸூரத்துந்நஜ்ம்",
+                         "tamilName": "ஸூரத்துல் நஜ்ம்",
+                         "urduName": "ஸூரத்துல் நஜ்ம்",
                          "englishNameTranslation": "The Star",
                          "tamilNameTranslation": "நட்சத்திரம்",
                          "urduNameTranslation": "நட்சத்திரம்",
@@ -709,7 +709,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்து நூஹ்",
                          "urduName": "ஸூரத்து நூஹ்",
                          "englishNameTranslation": "Noah",
-                         "tamilNameTranslation": "Noah",
+                         "tamilNameTranslation": "நூஹ்",
                          "urduNameTranslation": "Noah",
                          "revelationType": "Meccan","totalAyah" : 28
                        },
@@ -756,10 +756,10 @@ const surahNames = [
                        {
                          "name": "الإِنسَانِ",
                          "englishName": "Al-Insaan",
-                         "tamilName": "Al-Insaan",
+                         "tamilName": "ஸூரத்துல் இன்சான்",
                          "urduName": "Al-Insaan",
                          "englishNameTranslation": "Man",
-                         "tamilNameTranslation": "Man",
+                         "tamilNameTranslation": "மனிதன்",
                          "urduNameTranslation": "Man",
                          "revelationType": "Medinan","totalAyah" : 31
                        },
@@ -989,7 +989,7 @@ const surahNames = [
                          "tamilName": "ஸூரத்துஜ் ஜில்ஜால",
                          "urduName": "ஸூரத்துஜ் ஜில்ஜால",
                          "englishNameTranslation": "The Earthquake",
-                         "tamilNameTranslation": "அதிர்ச்ச",
+                         "tamilNameTranslation": "நிலநடுக்கம்",
                          "urduNameTranslation": "அதிர்ச்ச",
                          "revelationType": "Medinan","totalAyah" : 8
                        },
@@ -1096,8 +1096,8 @@ const surahNames = [
                        {
                          "name": "النَّصۡرِ",
                          "englishName": "An-Nasr",
-                         "tamilName": "ஸூரத்துந் நஸ்ர்",
-                         "urduName": "ஸூரத்துந் நஸ்ர்",
+                         "tamilName": "ஸூரத்துல் நஸ்ர்",
+                         "urduName": "ஸூரத்துல் நஸ்ர்",
                          "englishNameTranslation": "Divine Support",
                          "tamilNameTranslation": "உதவி",
                          "urduNameTranslation": "உதவி",
@@ -1106,10 +1106,10 @@ const surahNames = [
                        {
                          "name": "المَسَدِ",
                          "englishName": "Al-Masad",
-                         "tamilName": "Al-Masad",
+                         "tamilName": "ஸூரத்துல் -மசாத்",
                          "urduName": "Al-Masad",
                          "englishNameTranslation": "The Palm Fibre",
-                         "tamilNameTranslation": "The Palm Fibre",
+                         "tamilNameTranslation": "பனை நார்",
                          "urduNameTranslation": "The Palm Fibre",
                          "revelationType": "Meccan","totalAyah" : 5
                        },
