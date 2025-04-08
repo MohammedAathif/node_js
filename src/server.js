@@ -144,7 +144,7 @@ io.on("connection", (socket) => {
 //  console.log("✅ Server running on http://0.0.0.0:4000");
 //});
 
-app.listen(port, () => {
+server.listen(port, () => {
 //  console.log(`Server running at http://localhost:${port}`);
   console.log(`Server running at http://${port}`);
 });
